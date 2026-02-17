@@ -6,6 +6,7 @@ export const IMAGES = {
   KAABA_PREMIUM: 'https://images.unsplash.com/photo-1580418823088-75e114132009?q=80&w=1600&auto=format&fit=crop',
   MEDINA: 'https://images.unsplash.com/photo-1564769662533-4f00a87b4056?q=80&w=1600&auto=format&fit=crop',
   HAJJ_CROWD: 'https://images.unsplash.com/photo-1565552684305-7e8dabc01661?q=80&w=1600',
+  HAJJ_CLOCK_TOWER: 'https://images.unsplash.com/photo-1587995096339-688755b721e7?q=80&w=1600&auto=format&fit=crop',
   PAKISTAN_NORTH: 'https://images.unsplash.com/photo-1589553416260-f586c8f1514f?q=80&w=1600',
   LAHORE: 'https://images.unsplash.com/photo-1622546686358-1c42289c0963?q=80&w=1600',
   ISLAMABAD: 'https://images.unsplash.com/photo-1610996886290-7c64a5c9f130?q=80&w=1600',
@@ -30,8 +31,8 @@ export const PACKAGES: TravelPackage[] = [
     type: 'Hajj',
     price: '$8,500',
     duration: '21 Days',
-    image: IMAGES.KAABA_PREMIUM,
-    video: VIDEOS.KAABA_CINEMATIC,
+    image: IMAGES.HAJJ_CLOCK_TOWER,
+    // video: VIDEOS.KAABA_CINEMATIC, // Removed video to display the specific Hajj picture requested
     description: 'A spiritual journey of a lifetime with 5-star accommodations near Haram. Now booking for 2026.',
     rating: 5.0,
     features: ['5-Star Hotel', 'VIP Transport', 'Full Board Meals', 'Guided Ziyarat'],
